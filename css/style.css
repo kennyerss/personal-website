@@ -1,0 +1,98 @@
+body {
+  background-color: #caf0f8;
+  font-family: "Cormorant", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: #03045e;
+  font-family: "Bitter", sans-serif;
+  margin: 0;
+}
+
+hr {
+  border-color: #0077b6;
+  border-style: dotted none none;
+  border-width: 5px;
+  display: flexbox;
+  overflow: hidden;
+  width: 5%;
+}
+
+p {
+  /* color: #023e8a; */
+  font-size: 18px;
+}
+
+.header {
+  align-items: center;
+  background-color: #ade8f4;
+  display: flex;
+  justify-content: center;
+}
+
+.headshot {
+  height: 200px;
+  margin-bottom: 20px;
+  margin-left: 2%;
+  margin-top: 20px;
+}
+
+.intro {
+  margin-left: 30px;
+}
+
+.intro-description {
+  color: #023e8a;
+  font-family: "Cormorant Infant";
+  font-weight: light;
+  margin-left: 25px;
+  margin-top: 0;
+}
+
+.intro-name {
+  font-family: "Bitter", sans-serif;
+  font-size: 40px;
+}
+
+.resume-button {
+  align-items: center;
+  background-color: #0096c7;
+  border: none;
+  border-radius: 5px;
+  color: #caf0f8;
+  cursor: pointer;
+  font-family: "Bitter", sans-serif;
+  font-size: 16px;
+  height: 10%;
+  margin-left: 50%;
+  outline: none;
+  overflow: hidden;
+  width: 50%;
+}
+
+.resume-button:hover {
+  background: #0077b6;
+}
+
+.resume-button:active {
+  background: #023e8a;
+}
+
+.download-icon {
+  height: 15px;
+  filter: invert(91%) sepia(4%) saturate(2240%) hue-rotate(168deg)
+    brightness(104%) contrast(94%);
+}
+
+.biography,
+.portfolio-container {
+  margin-top: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #023e8a;
+}
+
+.portfolio {
+  background-color: #ade8f4;
+}
